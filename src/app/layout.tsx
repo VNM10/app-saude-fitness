@@ -17,25 +17,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "PeakFit - Transforme Seu Corpo e Alcance Seus Objetivos",
-  description: "Plataforma completa de fitness com treinos personalizados, planos alimentares e acompanhamento profissional. Emagrecimento, ganho de massa muscular e resistência.",
-  keywords: "fitness, treino personalizado, emagrecimento, ganho de massa, musculação, academia, nutrição, dieta",
-  authors: [{ name: "PeakFit" }],
-  openGraph: {
-    title: "PeakFit - Transforme Seu Corpo",
-    description: "Plataforma completa de fitness com treinos personalizados e planos alimentares",
-    type: "website",
-    locale: "pt_BR",
-  },
-  robots: {
-    index: true,
-    follow: true,
-  },
-  viewport: {
-    width: "device-width",
-    initialScale: 1,
-    maximumScale: 5,
-  },
+  title: "Criado com a Lasy",
+  description: "Projeto criado com Lasy AI",
 };
 
 export default function RootLayout({
@@ -47,8 +30,6 @@ export default function RootLayout({
     <html lang="pt-BR">
       <head>
         <Script src="/lasy-bridge.js" strategy="beforeInteractive" />
-        <link rel="icon" href="/icon.svg" type="image/svg+xml" />
-        <meta name="theme-color" content="#10b981" />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
